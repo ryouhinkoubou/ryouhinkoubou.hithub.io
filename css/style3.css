@@ -1,0 +1,76 @@
+/* common */
+body {
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+
+img {
+  width: 200px;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+nav {
+  text-align: center;
+}
+
+/* header */
+
+
+.container li {
+  width: calc((100% - 16px) / 3);
+}
+
+.container ul {
+  display: flex;
+  gap: 24px;
+  margin: 0 auto;
+}
+
+/* main */
+
+main .container {
+  display: flex;
+  justify-content: space-between;
+  height: 340px;
+}
+
+main .container > img {
+  width: 430px;
+  margin-left: 24px;
+  vertical-align: bottom;
+}
+
+main .sign {
+  background: #000;
+  margin-right: 16px;
+} 
+
+main h2,
+main h3 {
+  color: burlywood;
+}
+
+main p {
+  color: white;
+}
+
+/* footer */
+
+footer .container {
+  display: flex;
+  margin:0 40px 0;
+}
+
+footer img {
+  margin-top: 24px;
+  margin-left: 24px;
+  width: 400px;
+}

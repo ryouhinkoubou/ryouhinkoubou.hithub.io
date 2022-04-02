@@ -1,0 +1,98 @@
+/* common */
+body {
+  margin: 0;
+}
+
+h1 {
+  font-size: 42px;
+}
+
+p {
+font-size: 8px;  
+}
+
+img {
+  vertical-align: bottom;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+/* header */
+
+header {
+  margin-top: 36px;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 8px;
+}
+
+header p {
+  color: darkgray;
+}
+
+nav {
+  text-align: center;
+}
+
+/* hero */
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  background-color: burlywood;
+  
+}
+
+.hero h1,
+.hero ul {
+  color: #fff;
+}
+
+.hero ul {
+  display: block;
+  margin-right: 16px;
+}
+
+.hero img {
+  width: 450px;
+  vertical-align: bottom;
+}
+
+.hero div {
+  margin-top: 64px;
+}
+
+
+/* footer */
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container div {
+  margin: 0 16px 0;
+}
+
+.container .pro {
+  background-color: #000;
+  width: 450px;
+  margin-left: 0;
+}
+
+.container .pro h2 {
+color: burlywood;
+}
+.container .pro p {
+  color: #fff;
+}
